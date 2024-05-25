@@ -11,16 +11,15 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Shadcn
+              Fitnet
             </span>{" "}
-            landing page
+            A depin project
           </h1>{" "}
-          for{" "}
+          built on {" "} BNB
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              React
-            </span>{" "}
-            developers
+              GreenField
+            </span>
           </h2>
         </main>
 
@@ -48,7 +47,7 @@ export const Hero = () => {
 
       {/* Hero cards sections */}
       <div className="z-10">
-        {/* <HeroCards /> */}
+        <HeroCards />
       </div>
 
       {/* Shadow effect */}

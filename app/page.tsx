@@ -5,7 +5,6 @@ import { Features } from "@/components/Features";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { HowItWorks } from "@/components/HowItWorks";
-import { Navbar } from "@/components/Navbar";
 import { Newsletter } from "@/components/Newsletter";
 import { Pricing } from "@/components/Pricing";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -18,7 +17,6 @@ import { Testimonials } from "@/components/Testimonials";
 function App() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Sponsors />
       <About />
@@ -29,7 +27,6 @@ function App() {
       <Testimonials />
       <Team />
       <Pricing />
-      <Newsletter />
       <FAQ />
       <Footer />
       <ScrollToTop />
