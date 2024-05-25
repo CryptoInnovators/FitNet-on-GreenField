@@ -52,9 +52,6 @@ Fitnet aims to build a vibrant and supportive community of fitness enthusiasts, 
 ### Research and Innovation
 Fitnet also serves as a valuable resource for researchers and healthcare professionals. By aggregating anonymized fitness data from a diverse user base, the platform enables researchers to conduct studies, analyze trends, and develop insights into various aspects of health and fitness. This data-driven approach facilitates innovation in the field of fitness and contributes to advancements in healthcare and wellness.
 
-### Conclusion
-Fitnet revolutionizes the way people track, share, and monetize their fitness data through decentralized technology. By prioritizing user privacy, incentivizing data sharing, and fostering a vibrant community, Fitnet empowers individuals to take control of their health and fitness journey while contributing to a larger ecosystem of research and innovation. Join Fitnet today and be a part of the future of decentralized fitness tracking.
-
 
 ### Roadmap
 
@@ -71,5 +68,5 @@ Fitnet revolutionizes the way people track, share, and monetize their fitness da
    - Continuously improve and scale the platform, adding new features and supporting more fitness activities and health metrics.
 
 ### Conclusion
+Fitnet revolutionizes the way people track, share, and monetize their fitness data through decentralized technology. By prioritizing user privacy, incentivizing data sharing, and fostering a vibrant community, Fitnet empowers individuals to take control of their health and fitness journey while contributing to a larger ecosystem of research and innovation. Join Fitnet today and be a part of the future of decentralized fitness tracking.
 
-Fitnet aims to revolutionize the fitness tracking industry by leveraging decentralized technology to provide a secure, transparent, and user-centric platform. By empowering users with control over their data and incentivizing healthy living, Fitnet is set to become a leader in the decentralized physical infrastructure network (DePIN) space. Join us on this journey to a healthier and more connected world.
