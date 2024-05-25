@@ -1,7 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
-import { ArrowUpToLine } from "lucide-react";
+import { ArrowUpIcon } from "@radix-ui/react-icons";
+
 
 export const ScrollToTop = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
@@ -31,7 +32,7 @@ export const ScrollToTop = () => {
           className="fixed bottom-4 right-4 opacity-90 shadow-md"
           size="icon"
         >
-          <ArrowUpToLine className="h-4 w-4" />
+          <ArrowUpIcon className="h-4 w-4" />
         </Button>
       )}
     </>
