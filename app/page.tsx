@@ -30,6 +30,7 @@ import {
 } from "@tanstack/react-query";
 
 import { greenFieldChain } from "@/config/wallet";
+import { Navbar } from "@/components/Navbar";
 
 function App() {
 
