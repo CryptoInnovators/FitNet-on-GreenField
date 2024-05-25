@@ -18,6 +18,7 @@ import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 import { LogoIcon } from "./Icons";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 interface RouteProps {
   href: string;
@@ -106,6 +107,8 @@ export const Navbar = () => {
                     <GitHubLogoIcon className="mr-2 w-5 h-5" />
                     Github
                   </a>
+
+                  <ConnectButton />;
                 </nav>
               </SheetContent>
             </Sheet>
@@ -128,15 +131,8 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <a
-              rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-              target="_blank"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
-            >
-              <GitHubLogoIcon className="mr-2 w-5 h-5" />
-              Github
-            </a>
+
+            <ConnectButton />
 
             <ModeToggle />
           </div>
