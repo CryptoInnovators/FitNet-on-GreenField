@@ -5,6 +5,8 @@
 ### Overview
 Fitnet is a revolutionary fitness tracking platform that leverages the power of decentralized technology to give users control over their fitness data. Built on GreenField and deployed on the BNB Chain, Fitnet ensures that user data is secure, transparent, and owned by the users themselves. Our platform incentivizes healthy living through a token-based rewards system and fosters a community of fitness enthusiasts.
 
+![Aurora estate (1)](https://github.com/CryptoSnipper-Labs/FitNet-on-GreenField/assets/95926324/5479dc00-94ac-4eed-99fa-ccb93f024424)
+
 ### Key Features
 
 1. **Decentralized Data Storage**
