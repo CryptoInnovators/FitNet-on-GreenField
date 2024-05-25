@@ -1,5 +1,5 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
+import { MagnifierIcon, WalletIcon, ChartIcon } from "./icons";
 
 interface ServiceProps {
   title: string;

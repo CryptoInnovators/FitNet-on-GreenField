@@ -11,7 +11,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
-import { LightBulbIcon } from "./Icons";
+import { LightBulbIcon } from "./icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
