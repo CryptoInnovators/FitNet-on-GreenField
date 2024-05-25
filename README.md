@@ -1,4 +1,4 @@
-# Fitnet - Depin project built on BNB-GreenField
+# Fitnet - A Depin project built on BNB-GreenField
 
 **Tagline:** "Empowering Fitness through Decentralized Physical Infrastructure built on GreenField"
 
