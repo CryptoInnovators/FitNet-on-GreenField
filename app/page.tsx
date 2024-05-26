@@ -31,6 +31,9 @@ import {
 
 import { greenFieldChain } from "@/config/wallet";
 import { Navbar } from "@/components/Navbar";
+import { GreenFieldContextProvider } from "@/context/GreenFieldContext";
+import BucketPage from "@/components/Bucket";
+import ObjectPage from "@/components/Object";
 
 function App() {
 
@@ -49,8 +52,10 @@ function App() {
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
         <RainbowKitProvider>
-          <>
+          <GreenFieldContextProvider>
             <Navbar />
+            <BucketPage />
+            <ObjectPage />
             <Hero />
             <Sponsors />
             <About />
@@ -65,7 +70,7 @@ function App() {
             <FAQ />
             <Footer />
             <ScrollToTop />
-          </>
+          </GreenFieldContextProvider>
         </RainbowKitProvider>
       </QueryClientProvider>
     </WagmiProvider>
