@@ -31,6 +31,10 @@ import {
 
 import { greenFieldChain } from "@/config/wallet";
 import { Navbar } from "@/components/Navbar";
+import { GreenFieldContextProvider } from "@/context/GreenFieldContext";
+import BucketPage from "@/components/Bucket";
+import ObjectPage from "@/components/Object";
+import GreenFieldPage from "./greenField";
 
 function App() {
 
@@ -49,8 +53,15 @@ function App() {
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
         <RainbowKitProvider>
-          <>
+          <GreenFieldContextProvider>
             <Navbar />
+
+            {/* //TODO: Shift this bucket page and Object page wherever you want in your dapp */}
+
+            <GreenFieldPage />
+
+            <BucketPage />
+            <ObjectPage />
             <Hero />
             <Sponsors />
             <About />
@@ -65,7 +76,7 @@ function App() {
             <FAQ />
             <Footer />
             <ScrollToTop />
-          </>
+          </GreenFieldContextProvider>
         </RainbowKitProvider>
       </QueryClientProvider>
     </WagmiProvider>

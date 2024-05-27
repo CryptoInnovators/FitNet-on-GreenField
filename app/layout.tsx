@@ -44,16 +44,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <ThemeProvider>
             <div className="relative flex min-h-screen flex-col">
-              <Navbar />
               <div className="flex-1">{children}</div>
             </div>
             <TailwindIndicator />
           </ThemeProvider>
-
-
-
-
-
         </body>
       </html>
     </>
