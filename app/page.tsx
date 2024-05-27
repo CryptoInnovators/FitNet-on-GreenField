@@ -34,6 +34,7 @@ import { Navbar } from "@/components/Navbar";
 import { GreenFieldContextProvider } from "@/context/GreenFieldContext";
 import BucketPage from "@/components/Bucket";
 import ObjectPage from "@/components/Object";
+import GreenFieldPage from "./greenField";
 
 function App() {
 
@@ -54,6 +55,11 @@ function App() {
         <RainbowKitProvider>
           <GreenFieldContextProvider>
             <Navbar />
+
+            {/* //TODO: Shift this bucket page and Object page wherever you want in your dapp */}
+
+            <GreenFieldPage />
+
             <BucketPage />
             <ObjectPage />
             <Hero />
