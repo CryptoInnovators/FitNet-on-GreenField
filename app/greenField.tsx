@@ -37,7 +37,6 @@ const GreenFieldPage = () => {
     }
 
     useEffect(() => {
-        console.log("CLient and address", client, address)
         if (client && address) {
             (async () => {
                 await fetchBuckets();
