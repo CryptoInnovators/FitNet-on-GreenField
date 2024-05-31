@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/Navbar";
+import { Providers } from "./providers"
 
 export const metadata: Metadata = {
   title: {
@@ -42,12 +43,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
             fontSans.variable
           )}
         >
-          <ThemeProvider>
-            <div className="relative flex min-h-screen flex-col">
-              <div className="flex-1">{children}</div>
-            </div>
-            <TailwindIndicator />
-          </ThemeProvider>
+          <Providers>
+            <ThemeProvider>
+              <div className=" flex min-h-screen flex-col">
+                <div className="flex-1">
+                  <Navbar />
+                  {children}
+                </div>
+              </div>
+              <TailwindIndicator />
+            </ThemeProvider>
+          </Providers>
         </body>
       </html>
     </>

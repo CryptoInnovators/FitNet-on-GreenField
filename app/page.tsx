@@ -49,38 +49,27 @@ function App() {
 
 
   return (
+    <>
 
-    <WagmiProvider config={config}>
-      <QueryClientProvider client={queryClient}>
-        <RainbowKitProvider>
-          <GreenFieldContextProvider>
-            <Navbar />
+      {/* <GreenFieldPage /> */}
 
-            {/* //TODO: Shift this bucket page and Object page wherever you want in your dapp */}
-
-            <GreenFieldPage />
-
-            <BucketPage />
-            <ObjectPage />
-            <Hero />
-            <Sponsors />
-            <About />
-            <HowItWorks />
-            <Features />
-            <Services />
-            <Cta />
-            <Testimonials />
-            <Team />
-            <Pricing />
-            <Newsletter />
-            <FAQ />
-            <Footer />
-            <ScrollToTop />
-          </GreenFieldContextProvider>
-        </RainbowKitProvider>
-      </QueryClientProvider>
-    </WagmiProvider>
-
+      {/* <BucketPage /> */}
+      <ObjectPage />
+      <Hero />
+      <Sponsors />
+      <About />
+      <HowItWorks />
+      <Features />
+      <Services />
+      <Cta />
+      <Testimonials />
+      <Team />
+      <Pricing />
+      <Newsletter />
+      <FAQ />
+      <Footer />
+      <ScrollToTop />
+    </>
   );
 }
 

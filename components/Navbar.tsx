@@ -31,17 +31,21 @@ const routeList: RouteProps[] = [
     label: "Features",
   },
   {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
-  {
-    href: "#pricing",
-    label: "Pricing",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
+    href: "/buckets",
+    label: "Buckets",
+  }
+  // {
+  //   href: "#testimonials",
+  //   label: "Testimonials",
+  // },
+  // {
+  //   href: "#pricing",
+  //   label: "Pricing",
+  // },
+  // {
+  //   href: "#faq",
+  //   label: "FAQ",
+  // },
 ];
 
 export const Navbar = () => {
@@ -118,7 +122,6 @@ export const Navbar = () => {
           <nav className="hidden md:flex gap-2">
             {routeList.map((route: RouteProps, i) => (
               <a
-                rel="noreferrer noopener"
                 href={route.href}
                 key={i}
                 className={`text-[17px] ${buttonVariants({

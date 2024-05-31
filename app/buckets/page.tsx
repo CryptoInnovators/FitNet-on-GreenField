@@ -1,13 +1,13 @@
+"use client"
+import React, { useEffect, useState } from 'react';
 import { client, selectSp } from '@/client';
 import DisplayBucketData from '@/components/DisplayBucketData';
 import GenerateBucket from '@/components/GenerateBucket';
 import { Button } from '@/components/ui/button';
-import { bucketData } from '@/constants/bucketData';
 import { BucketMetaWithVGF } from '@bnb-chain/greenfield-js-sdk/dist/esm/types/sp/Common';
-import React, { useEffect, useState } from 'react';
 import { useAccount } from 'wagmi';
 
-const GreenFieldPage = () => {
+const BucketPage = () => {
 
     const { address, connector } = useAccount();
 
@@ -48,9 +48,10 @@ const GreenFieldPage = () => {
     }, [client, address])
 
 
-    console.log("buckets", buckets)
     return (
         <div>
+            <GenerateBucket />
+
             <div className='flex flex-row flex-wrap items-center justify-center gap-8'>
                 {buckets && buckets.map((bucket) => (
                     <div key={bucket.CreateTxHash}>
@@ -59,12 +60,8 @@ const GreenFieldPage = () => {
                 ))}
             </div>
 
-
-            <div>
-                <GenerateBucket />
-            </div>
         </div>
     );
 };
 
-export default GreenFieldPage;
+export default BucketPage;
