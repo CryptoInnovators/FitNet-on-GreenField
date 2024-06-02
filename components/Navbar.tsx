@@ -19,6 +19,7 @@ import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 import { LogoIcon } from "./icons";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Link from "next/link";
 
 interface RouteProps {
   href: string;
@@ -33,19 +34,11 @@ const routeList: RouteProps[] = [
   {
     href: "/buckets",
     label: "Buckets",
+  },
+  {
+    href: "/starva",
+    label: "Starva",
   }
-  // {
-  //   href: "#testimonials",
-  //   label: "Testimonials",
-  // },
-  // {
-  //   href: "#pricing",
-  //   label: "Pricing",
-  // },
-  // {
-  //   href: "#faq",
-  //   label: "FAQ",
-  // },
 ];
 
 export const Navbar = () => {
@@ -111,7 +104,6 @@ export const Navbar = () => {
                     <GitHubLogoIcon className="mr-2 w-5 h-5" />
                     Github
                   </a>
-
                   <ConnectButton />;
                 </nav>
               </SheetContent>
