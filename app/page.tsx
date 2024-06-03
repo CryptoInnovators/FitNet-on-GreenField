@@ -35,6 +35,7 @@ import { GreenFieldContextProvider } from "@/context/GreenFieldContext";
 import BucketPage from "@/components/Bucket";
 import ObjectPage from "@/components/Object";
 import GreenFieldPage from "./greenField";
+import { Toaster } from "@/components/ui/toaster";
 
 function App() {
 
@@ -54,7 +55,7 @@ function App() {
       {/* <GreenFieldPage /> */}
 
       {/* <BucketPage /> */}
-      <ObjectPage />
+      {/* <ObjectPage /> */}
       <Hero />
       <Sponsors />
       <About />
@@ -69,6 +70,7 @@ function App() {
       <FAQ />
       <Footer />
       <ScrollToTop />
+
     </>
   );
 }

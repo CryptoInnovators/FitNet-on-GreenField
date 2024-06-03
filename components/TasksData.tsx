@@ -6,7 +6,8 @@ import { FilteredTasks, Task } from '@/types/Tasks';
 import { Button } from './ui/button';
 
 const TasksData = ({
-    taskData
+    taskData,
+    athlete
 }) => {
 
     const tasks = taskData;
@@ -77,6 +78,7 @@ const TasksData = ({
                                         activeKey={selectedKey}
                                         activities={filteredTasks}
                                         athleteActivityData={athleteActivityData}
+                                        athlete={athlete}
                                     />
                                 </div>
                             </div>

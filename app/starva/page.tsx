@@ -157,7 +157,7 @@ const StarvaPage = () => {
 
             <ProfileContainer isLoading={isLoading} athleteData={athlete} />
 
-            {athlete && <TasksData taskData={athleteStats} />}
+            {athlete && <TasksData taskData={athleteStats} athlete={athlete} />}
 
 
         </div>

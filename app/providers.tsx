@@ -14,6 +14,7 @@ import {
     bscTestnet
 } from 'wagmi/chains';
 import { greenFieldChain } from '@/config/wallet';
+import { Toaster } from '@/components/ui/toaster';
 
 const { wallets } = getDefaultWallets();
 
@@ -54,6 +55,7 @@ export function Providers({ children }) {
             <QueryClientProvider client={queryClient}>
                 <RainbowKitProvider>
                     {children}
+                    <Toaster />
                 </RainbowKitProvider>
             </QueryClientProvider>
         </WagmiProvider>

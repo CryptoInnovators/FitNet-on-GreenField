@@ -126,9 +126,7 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-
             <ConnectButton />
-
             <ModeToggle />
           </div>
         </NavigationMenuList>
